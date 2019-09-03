@@ -4,10 +4,11 @@ Repository con il dockerfile per creare una Docker Image di Alpine Linux base co
 
 ## Info
 
-La versione 3.9.4 di Alpine Linux [(Repository)](https://github.com/scolagreco/docker-alpine/tree/v3.9.4).
+La versione 3.10.2 di Alpine Linux [(Repository)](https://github.com/scolagreco/docker-alpine/tree/v3.10.2).
 
 ## Versions
 
 - `latest` [(Dockerfile)](https://github.com/scolagreco/alpine-base/blob/master/Dockerfile)
+- [`v3.10.2`](https://github.com/scolagreco/alpine-base/releases/tag/v3.10.2)
 - [`v3.9.4`](https://github.com/scolagreco/alpine-base/releases/tag/v3.9.4)
 - [`v3.9.2`](https://github.com/scolagreco/alpine-base/releases/tag/v3.9.2)
