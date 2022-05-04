@@ -1,4 +1,4 @@
-FROM scolagreco/docker-alpine:v3.15.0
+FROM scolagreco/docker-alpine:v3.15.4
 MAINTAINER Stefano Colagreco <stefano@colagreco.it>
 
 RUN apk add --update --no-cache tzdata \
@@ -8,7 +8,7 @@ RUN apk add --update --no-cache tzdata \
 
 # Metadata params
 ARG BUILD_DATE
-ARG VERSION="v3.15.0"
+ARG VERSION="v3.15.4"
 ARG VCS_URL="https://github.com/scolagreco/alpine-base.git"
 ARG VCS_REF
 
