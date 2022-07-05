@@ -1,8 +1,8 @@
 [![](https://images.microbadger.com/badges/image/scolagreco/alpine-base.svg)](https://microbadger.com/images/scolagreco/alpine-base)
 [![](https://images.microbadger.com/badges/commit/scolagreco/alpine-base.svg)](https://microbadger.com/images/scolagreco/alpine-base)
 
-[![Docker Stars](https://img.shields.io/docker/stars/scolagreco/docker-alpine.svg)](https://hub.docker.com/r/scolagreco/alpine-base/)
-[![Docker Pulls](https://img.shields.io/docker/pulls/scolagreco/docker-alpine.svg)](https://hub.docker.com/r/scolagreco/alpine-base/)
+[![Docker Stars](https://img.shields.io/docker/stars/scolagreco/alpine-base.svg)](https://hub.docker.com/r/scolagreco/alpine-base/)
+[![Docker Pulls](https://img.shields.io/docker/pulls/scolagreco/alpine-base.svg)](https://hub.docker.com/r/scolagreco/alpine-base/)
 
 # Docker Alpine Linux base con timezone Europe/Rome
 
