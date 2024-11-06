@@ -1,5 +1,4 @@
-FROM scolagreco/docker-alpine:v3.18.2
-MAINTAINER Stefano Colagreco <stefano@colagreco.it>
+FROM scolagreco/docker-alpine:v3.18.9
 
 RUN apk add --update --no-cache tzdata \
  && cp /usr/share/zoneinfo/Europe/Rome /etc/localtime \
@@ -8,7 +7,7 @@ RUN apk add --update --no-cache tzdata \
 
 # Metadata params
 ARG BUILD_DATE
-ARG VERSION="v3.18.2"
+ARG VERSION="v3.18.9"
 ARG VCS_URL="https://github.com/scolagreco/alpine-base.git"
 ARG VCS_REF
 
