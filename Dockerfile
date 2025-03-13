@@ -1,4 +1,4 @@
-FROM scolagreco/docker-alpine:v3.20.6
+FROM scolagreco/docker-alpine:v3.21.3
 
 RUN apk add --update --no-cache tzdata \
  && cp /usr/share/zoneinfo/Europe/Rome /etc/localtime \
@@ -7,7 +7,7 @@ RUN apk add --update --no-cache tzdata \
 
 # Metadata params
 ARG BUILD_DATE
-ARG VERSION="v3.20.6"
+ARG VERSION="v3.21.3"
 ARG VCS_URL="https://github.com/scolagreco/alpine-base.git"
 ARG VCS_REF
 
